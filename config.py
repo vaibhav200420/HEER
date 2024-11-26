@@ -9,14 +9,14 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "20881635"))
-API_HASH = getenv("API_HASH", "5f66e88a2b133c1f77f4b7dd6807b8ce")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "8056822116:AAG94Et7TN9A86Z3KeTsqAjPAk_8L8UZcJ4")
+BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","II_HaRsH_YaDv_II")
+OWNER_USERNAME = getenv("OWNER_USERNAME","")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "InsaneMusic_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Heeer_music_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://vg766337:xksmuYTJEN6nT9j2@yukkimusic-moded-repo.ianrw.mongodb.net/?retryWrites=true&w=majority&appName=YukkiMusic-Moded-Repo")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002108873378))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002141133985))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "1750583099"))
+OWNER_ID = int(getenv("OWNER_ID", 7147100550))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -53,7 +53,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/vaibhav200420/HEER",
+    "https://github.com/Sareeflonda88/HEER",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ps_Corporation_Com")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+sW_L1vwSZ1Y4NDQ9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FONT_CHANNEL_01")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Exampurrs")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -114,8 +114,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQF4liQAvSQNmzYBoBfJX1q4NYvN1RxLP-FLkhzTGlLOf2rTIms4wwqmo7vDBQFwTasljOnUPJzyMAdWs_lkPrQ_biN0HHiKIKr5UJ042YnhcIiUWJFp2K3aZVudBuShuH4ox4MqiOYqS0H7avizYFWq_bmQ9BCZ9vyjiUScdqBTnyBLGmTx-kbYVFcYeixOzqTzaVHv9cOMbo75aCOVbFhy1z2JnBzXBNIa-hkXYAg4OqezEyQFnQJ-15RYNZr3Ubv3K-Qszrq2toq5YrIsiQjnBXYLHqAL4Cd2xHirMG6DWJOMK-ECaSUDMviQN-d4x1b-1jKH9XEnt4kufkKr2RNAQTy9KgAAAAGeHxvxAA")
-STRING2 = getenv("STRING_SESSION2", "BQFQySMAJ_tX7QP5uQG2trC1ZctkUJfoLluI9_r6cKiNtBbmuOaRDUYuWl0bzunkVhZa8OUjclM2T_0FBlmX3daRkKbHU7kzR-CIbisADyELB2PXzUckRi9cCfMcYqxIZxhbnnB0VxBJevTaHbVDEuqb83HVU7bPSrUykouDyaCdMUzlmW6X3CPwZn40d2ozM78T-hRn0aTP2vS2vo0zhsbkzd8a4_GiWzZ8RsuFmdpzBGLHmHlUeXB4v57AeaS0VXDVdgD7-zIbjfJbH20jQ4akpiA-T2yws6A3eAq923O99X7GJtLhksf-FLf9R-Nh3DcK5wI9yM-2IodHPtKWLUAbhf2RJwAAAAHK3lnhAA")
+STRING1 = getenv("STRING_SESSION", None)
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
